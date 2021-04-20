@@ -3,11 +3,13 @@
 This will focus on some easy wins for IR type scenarios where you have an image/the ability to remote into a Windows host to identify malicious activity.
 
 ### Persistence
-#### Registry
----
+
+<details>
+<summary> Registry</summary>
+<br>
 I normally sort by date, look for pivot points around the time period and any newly installed services around that time. 
 
-    HKLM\SYSTEM\CurrentControlSet\Services <>
+    HKLM\SYSTEM\CurrentControlSet\Services
  <br>
 
     NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Run
@@ -31,3 +33,5 @@ I normally sort by date, look for pivot points around the time period and any ne
 <br>
     
     NT\CurrentVersion\Winlogon\Userinit
+</details>
+
